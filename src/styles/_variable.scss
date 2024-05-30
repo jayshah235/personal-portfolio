@@ -1,0 +1,7 @@
+@mixin roundBubbles($size: 120px) {
+  background: hsla(0, 0%, 100%, 0.1);
+  width: $size;
+  height: $size;
+  border-radius: 50%;
+  position: absolute;
+}

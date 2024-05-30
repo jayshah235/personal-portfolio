@@ -1,0 +1,31 @@
+.headerContainer {
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  // background: #172b4d;
+}
+
+.headerContent {
+  width: 75%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo {
+  font-family: Augestina;
+  text-transform: capitalize;
+  font-size: 16px;
+  margin: 0;
+  font-weight: 400;
+  color: #fefefe;
+}
+
+.headerIcons {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
