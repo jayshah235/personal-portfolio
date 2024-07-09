@@ -4,6 +4,8 @@
   position: fixed;
   top: 0;
   // background: #172b4d;
+  backdrop-filter: blur(20px);
+  // background: hsla(0, 0%, 5%, 0.5);
 }
 
 .headerContent {
